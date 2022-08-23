@@ -1,0 +1,22 @@
+body{
+    padding: 32px;
+    justify-content: center;
+}
+
+.panel{
+    border: 2px solid pink;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 768px;
+    width: 768px;
+}
+
+.panel > .gridbox {
+    height: 46px;
+    width: 46px;
+    border: dotted 1px black;
+    background-color: aqua;
+
+}
+
