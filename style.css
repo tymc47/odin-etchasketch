@@ -17,6 +17,8 @@ body{
     width: 46px;
     border: dotted 1px black;
     background-color: aqua;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
 
 }
 

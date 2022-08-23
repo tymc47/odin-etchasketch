@@ -18,12 +18,15 @@ let isMouseDown = false;
 document.body,onmousedown = () => isMouseDown = true;
 document.body.onmouseup = () => isMouseDown = false;
 
-gridboxes.forEach(gridbox => gridbox.addEventListener('mouseover', function(e){
+gridboxes.forEach(gridbox => gridbox.addEventListener('mouseover', function(){
     if (isMouseDown){
     this.style.background = 'white';
     }
 }
 ));
 
-
+gridboxes.forEach(gridbox => gridbox.addEventListener('mousedown', function(){
+    this.style.background = 'white';
+}
+));
 
