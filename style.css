@@ -1,6 +1,7 @@
 body{
     padding: 32px;
     justify-content: center;
+    display: flex;
 }
 
 .panel{
@@ -8,17 +9,18 @@ body{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     height: 768px;
     width: 768px;
 }
 
 .panel > .gridbox {
-    height: 46px;
-    width: 46px;
-    border: dotted 1px black;
-    background-color: aqua;
+    border: solid 1px lightslategray;
     -webkit-user-drag: none;
     -webkit-user-select: none;
 
 }
 
+.slider:hover {
+    opacity: 1;
+}
