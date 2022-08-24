@@ -3,6 +3,10 @@
 body, button{
     font-family: 'Silkscreen', cursive;
 }
+
+body {
+    background-image: url('background.jpg');
+}
 .main{
     padding: 64px;
     justify-content: center;
@@ -15,9 +19,10 @@ body, button{
 .panel{
     border-style: groove;
     border-color: #1c3879;
+    background-color: white;
     display: grid;
-    width: 640px;
-    height: 640px;
+    width: 480px;
+    height: 480px;
     
 }
 
@@ -34,6 +39,7 @@ body, button{
     justify-content: center;
     align-items: center;
     row-gap: 16px;
+    margin-left: 64px;
 }
 
 .slidervalue {
@@ -47,6 +53,7 @@ body, button{
 
 h1 {
     margin-top: 64px;
+    font-size: 48px;
     text-align: center;
 }
 
